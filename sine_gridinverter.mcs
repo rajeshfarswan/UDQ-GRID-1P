@@ -1,0 +1,202 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmABCtoDQ.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File001]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmADC.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File002]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmDClink.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File003]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmDQtoABC.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File004]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmINT_MPQ.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File005]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmPIcontroller.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File006]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmPWM.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File007]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\delay.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File008]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\init.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File009]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\main.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PK3=1
+[File010]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmFO_Filter.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File011]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmHARMONIC.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File012]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\asmINT_DIVQ.o
+Folder=Intermediary
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1
+[File013]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\sine_gridinverter.cof
+Folder=Output
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1 --defsym=__ICD2RAM=1
+[File014]
+Location=W:\Project Workspace\Project_Work\ac lab kit power and sensing\TOPOLOGIES - SR1-6 - A\SR3.1.UDQ HB GRID 1P\sine_gridinverter.hex
+Folder=Output
+DeviceName=dsPIC30F6010A
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|asmABCtoDQ.s|asmADC.s|asmDClink.s|asmDQtoABC.s|asmINT_MPQ.s|asmPIcontroller.s|asmPWM.s|delay.c|init.c|main.c|asmFO_Filter.s|asmHARMONIC.s|asmINT_DIVQ.s||<obj>||<lib>||<lkr>|p30f6010A.gld||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_PK3=1 --defsym=__ICD2RAM=1
+[TOOL_LOC_STAMPS]
+tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-as.exe
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe

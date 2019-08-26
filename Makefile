@@ -1,0 +1,59 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: sine_gridinverter.mcp
+# Date: Thu Aug 30 18:58:05 2012
+
+AS = pic30-as.exe
+CC = pic30-gcc.exe
+LD = pic30-ld.exe
+AR = pic30-ar.exe
+HX = pic30-bin2hex.exe
+RM = rm
+
+sine_gridinverter.hex : sine_gridinverter.cof
+	$(HX) "sine_gridinverter.cof"
+
+sine_gridinverter.cof : asmABCtoDQ.o asmADC.o asmDClink.o asmDQtoABC.o asmHARMONIC.o asmINT_DIVQ.o asmINT_MPQ.o asmPIcontroller.o asmPWM.o delay.o init.o main.o asmFO_Filter.o
+	$(CC) -mcpu=30F6010A "asmABCtoDQ.o" "asmADC.o" "asmDClink.o" "asmDQtoABC.o" "asmHARMONIC.o" "asmINT_DIVQ.o" "asmINT_MPQ.o" "asmPIcontroller.o" "asmPWM.o" "delay.o" "init.o" "main.o" "asmFO_Filter.o" -o"sine_gridinverter.cof" -Wl,-L"C:\Program Files\Microchip\MPLAB C30\lib",--script="p30f6010A.gld",--defsym=__MPLAB_BUILD=1,--defsym=__MPLAB_DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,--defsym=__ICD2RAM=1,-Map="sine_gridinverter.map",--report-mem
+
+asmABCtoDQ.o : asmABCtoDQ.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmABCtoDQ.s" -o"asmABCtoDQ.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+asmADC.o : asmADC.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmADC.s" -o"asmADC.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+asmDClink.o : asmDClink.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmDClink.s" -o"asmDClink.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+asmDQtoABC.o : asmDQtoABC.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmDQtoABC.s" -o"asmDQtoABC.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+asmHARMONIC.o : asmHARMONIC.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmHARMONIC.s" -o"asmHARMONIC.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+asmINT_DIVQ.o : asmINT_DIVQ.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmINT_DIVQ.s" -o"asmINT_DIVQ.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+asmINT_MPQ.o : asmINT_MPQ.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmINT_MPQ.s" -o"asmINT_MPQ.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+asmPIcontroller.o : asmPIcontroller.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmPIcontroller.s" -o"asmPIcontroller.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+asmPWM.o : asmPWM.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmPWM.s" -o"asmPWM.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+delay.o : p30f6010A.h delay.c
+	$(CC) -mcpu=30F6010A -x c -c "delay.c" -o"delay.o" -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -g -Wall
+
+init.o : p30f6010A.h init.c
+	$(CC) -mcpu=30F6010A -x c -c "init.c" -o"init.o" -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -g -Wall
+
+main.o : asmMath.h user.h p30f6010A.h main.h main.c
+	$(CC) -mcpu=30F6010A -x c -c "main.c" -o"main.o" -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -g -Wall
+
+asmFO_Filter.o : asmFO_Filter.s
+	$(CC) -mcpu=30F6010A -c -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 "asmFO_Filter.s" -o"asmFO_Filter.o" -Wa,--defsym=__DEBUG=1,--defsym=__MPLAB_DEBUGGER_PK3=1,-g
+
+clean : 
+	$(RM) "asmABCtoDQ.o" "asmADC.o" "asmDClink.o" "asmDQtoABC.o" "asmHARMONIC.o" "asmINT_DIVQ.o" "asmINT_MPQ.o" "asmPIcontroller.o" "asmPWM.o" "delay.o" "init.o" "main.o" "asmFO_Filter.o" "sine_gridinverter.cof" "sine_gridinverter.hex"
+
